@@ -1,0 +1,152 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 113900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepdefs.start_test()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Validate shopping cart",
+        "description": "",
+        "id": "validate-the-shopping-cart-and-proceed-to-the-sign-in-section;validate-shopping-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 139000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepdefs.stop(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5823817800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Launch Application",
+            "match": {
+              "location": "MyStepdefs.launchApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6808074100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "search for summer dresses",
+            "match": {
+              "location": "MyStepdefs.searchForSummerDresses()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2942418600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click on summer dresses result",
+            "match": {
+              "location": "MyStepdefs.clickOnSummerDressesResult()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132828000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Add to cart button",
+            "match": {
+              "location": "MyStepdefs.clickOnAddToCartButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3048718300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Processed to checkout button",
+            "match": {
+              "location": "MyStepdefs.clickOnProcessedToCheckoutButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2531424900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Processed to checkout button on Shopping Cart Summary page",
+            "match": {
+              "location": "MyStepdefs.clickOnProcessedToCheckoutButtonOnShoppingCartSummaryPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2225783900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters \u003cusername\u003e and Password as \u003cpassword\u003e on Authentication Page",
+            "match": {
+              "location": "MyStepdefs.userEntersUsernameAndPasswordAsPasswordOnAuthenticationPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1963669900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click on Sign in button",
+            "match": {
+              "location": "MyStepdefs.clickOnSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144669900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify user can successfully sign in and lands on Address page to confirm the address",
+            "match": {
+              "location": "MyStepdefs.verifyUserCanSuccessfullySignInAndLandsOnAddressPageToConfirmTheAddress()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate the shopping cart and proceed to the Sign in section",
+    "description": "",
+    "id": "validate-the-shopping-cart-and-proceed-to-the-sign-in-section",
+    "keyword": "Feature",
+    "uri": "shopping.feature"
+  }
+]
